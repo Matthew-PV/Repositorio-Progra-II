@@ -9,6 +9,8 @@ El proyecto está compuesto por dos clases principales:
 1. **Matematicas.java**: Esta clase contiene los métodos para generar la aproximación de Pi utilizando recursividad.
 2. **Principal.java**: Esta clase es la clase de entrada que interactúa con el usuario y muestra el resultado de la aproximación.
 
+### Diagrama UML
+
 ## Funcionalidad
 
 ### Clase `Matematicas`
@@ -55,5 +57,5 @@ El método de Montecarlo es una técnica de simulación probabilística que util
 
 ### Licencia
 
-La práctica está bajo la licencia Apache 2.0. Consultar el archivo LICENSE para
+La práctica está bajo la licencia Apache 2.0. Consultar el archivo <a href="https://github.com/Matthew-PV/Repositorio-Progra-II/blob/223f28c0018ad52110a3acefa323baa34ec01dac/LICENSE">LICENSE</a> para
 más detalles.
