@@ -38,8 +38,8 @@ La clase `Principal` es la interfaz de usuario que solicita al usuario la cantid
 
 ## Ejemplo de Ejecución
 
-Introduce la cantidad de pasos a ejecutar: 1000000
-El número PI es 3.141633
+- Introduce la cantidad de pasos a ejecutar: 1000000
+- El número PI es 3.141633
 
 #### Advertencia
 En nuestros equipos no hemos logrado utilizar más de 5000 pasos por falta de memoria.
@@ -50,8 +50,8 @@ El método de Montecarlo es una técnica de simulación probabilística que util
 
 ### Notas
 
-El valor de Pi generado será más preciso si se aumenta la cantidad de puntos (pasos).
-El proceso es recursivo, lo que significa que utiliza funciones que se llaman a sí mismas para realizar las iteraciones.
+- El valor de Pi generado será más preciso si se aumenta la cantidad de puntos (pasos).
+- El proceso es recursivo, lo que significa que utiliza funciones que se llaman a sí mismas para realizar las iteraciones.
 
 ### Licencia
 
