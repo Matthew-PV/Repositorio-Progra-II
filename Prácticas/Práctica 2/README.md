@@ -10,6 +10,7 @@ El proyecto está compuesto por dos clases principales:
 2. **Principal.java**: Esta clase es la clase de entrada que interactúa con el usuario y muestra el resultado de la aproximación.
 
 ### Diagrama UML
+<img src="https://github.com/Matthew-PV/Repositorio-Progra-II/blob/685000767df725b2332e2c6822b84277f1353348/Pr%C3%A1cticas/Pr%C3%A1ctica%202/Diagrama%20UML.png" alt="Diagrama UML">
 
 ## Funcionalidad
 
