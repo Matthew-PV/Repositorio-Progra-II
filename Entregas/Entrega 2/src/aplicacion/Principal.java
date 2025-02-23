@@ -7,7 +7,6 @@ import dominio.FuncionesMatematicas;
 public class Principal {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        /*
         //Apartado 1
         System.out.print("Apartado 1: suma 0 + 1 + ... + n.\nIntroduce el valor de n: ");
         int n = teclado.nextInt();
@@ -28,7 +27,6 @@ public class Principal {
         System.out.println("Resultado 3: "+FuncionesMatematicas.potenciaNesima(base, n));
         System.out.println();
         teclado.nextLine();
-         */
 
         //Apartado 4
         System.out.println("Apartado 4: La suma de elementos de una lista de números.");
@@ -46,6 +44,16 @@ public class Principal {
             }
         } while (!entrada.equalsIgnoreCase("stop"));
         System.out.println("Resultado 4: "+FuncionesMatematicas.sumaElementos(listaNumeros));
+        System.out.println();
+
+        //Apartado 5
+        System.out.println("Apartado 5: Media aritmética de una lista de números." +
+                "\nResultado 5 de la lista de números anterior: "+FuncionesMatematicas.mediaAritmetica(listaNumeros));
+        System.out.println();
+
+        //Apartado 6
+        System.out.println("Apartado 6: Desviación típica de una lista de números." +
+                "\nResultado 6 de la lista anterior: " +FuncionesMatematicas.desviacionTipica(listaNumeros));
         System.out.println();
     }
 }
