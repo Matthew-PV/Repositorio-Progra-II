@@ -30,5 +30,5 @@ Este proyecto está licenciado bajo los términos de la [Licencia Apache 2.0](ht
 
 ## Autores
 
--Lucía Guzmán
--Matthew Puente-Villegas
+- Lucía Guzmán
+- Matthew Puente-Villegas
