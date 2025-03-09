@@ -13,7 +13,7 @@ El proyecto está dividido en dos paquetes principales:
 
 A continuación, se muestra el diagrama UML del proyecto:
 
-![Diagrama UML](ruta/a/la/imagen.png)
+![Diagrama UML](https://github.com/Matthew-PV/Repositorio-Progra-II/blob/44fe2fa2fea2bb0f21cd452e29248dee33935cf5/Pr%C3%A1cticas/Pr%C3%A1ctica%203/Diagrama%20UML.png)
 
 ## Ejecución
 
