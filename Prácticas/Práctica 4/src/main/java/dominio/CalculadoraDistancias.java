@@ -50,7 +50,7 @@ public class CalculadoraDistancias{
      * @return Devuelve el valor de la posición final de la tabla a la que hemos llegado,
      * que contendrá la distancia mínima.
      */
-    private static int calcularDistanciaAux(String patron, String cadena, int i, int j, int[][] tabla) {
+    public static int calcularDistanciaAux(String patron, String cadena, int i, int j, int[][] tabla) {
         //Casos base (todos los símbolos anteriores ya son iguales y hemos llegado al final):
         if (i == patron.length()) return cadena.length() - j; //Sobran símbolos en la cadena y toca borrarlos.
         if (j == cadena.length()) return patron.length() - i; //Faltan símbolos en la cadena y toca insertarlos.
