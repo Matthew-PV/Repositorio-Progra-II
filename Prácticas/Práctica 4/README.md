@@ -50,6 +50,7 @@ Introduce el nuevo valor de la cadena 2 (actual: ): caza
 
 Introduce el número de la instrucción a ejecutar: 3️⃣
 La distancia de edición mínima entre **casa** y **caza** es **1**
+```
 
 
 ## Diagrama de clases
