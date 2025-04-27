@@ -8,7 +8,7 @@ Este proyecto implementa una calculadora de distancia de edición mínima entre 
 - **aplicacion/Principal.java**: Programa principal que permite al usuario interactuar a través de la consola para:
   - Introducir/modificar dos cadenas de texto.
   - Calcular la distancia de edición mínima entre ellas.
-  - Finalizar la ejecución escribiendo `stop` o `parar`.
+  - Finalizar la ejecución escribiendo `stop` o `parar`
 
 ##Uso
 Una vez ejecutado, el programa permitirá:
@@ -35,7 +35,7 @@ La distancia de edición mínima entre casa y caza es 1
 ##Diagrama de clases
 A continuación se muestra un diagrama de clases de la estructura del proyecto:
 
-<!-- Reemplaza 'diagrama-clases.png' con la ruta o URL real de tu imagen si es diferente -->
+<img src="https://github.com/Matthew-PV/Repositorio-Progra-II/blob/8051b296f8a1d370794b98cecf708108a46b1a75/Pr%C3%A1cticas/Pr%C3%A1ctica%204/Diagrama%20UML.png" alt="Diagrama UML">
 
 ##Licencia
 Este proyecto está licenciado bajo la <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a>.
