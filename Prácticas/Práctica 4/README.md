@@ -1,25 +1,52 @@
-# Calculadora de Distancias de Edición
+# 🛠️ Calculadora de Distancia de Edición
 
-Este proyecto implementa una calculadora de distancia de edición mínima entre dos cadenas de texto, utilizando un enfoque basado en programación dinámica para optimizar el cálculo.
+Este proyecto en Java implementa una herramienta interactiva que permite calcular la **distancia de edición mínima** entre dos cadenas de texto, utilizando una estrategia de **programación dinámica** para optimizar la eficiencia.
 
-## Estructura del Proyecto
-- **dominio/CalculadoraDistancias.java**: Contiene la lógica de cálculo de la distancia de edición mínima entre dos cadenas. Se emplea una versión recursiva optimizada mediante memoización (almacenando las soluciones previas).
-- **aplicacion/Principal.java**: Programa principal que permite al usuario interactuar a través de la consola para:
-  - Introducir/modificar dos cadenas de texto.
-  - Calcular la distancia de edición mínima entre ellas.
-  - Finalizar la ejecución escribiendo `stop` o `parar`
-- **Javadoc**: La estructura de las clases también está definida en la carpeta `html`
+---
 
-## Uso
-Una vez ejecutado, el programa permitirá:
+## 📚 Contenido
 
-- Cambiar el valor de las cadenas.
+- [Descripción](#descripción)
+- [Ejecución](#ejecución)
+- [Diagrama UML](#diagrama-uml)
+- [Licencia](#licencia)
 
-- Calcular la distancia de edición mínima entre las dos cadenas actuales.
+---
 
-- Terminar el programa escribiendo stop o parar.
+## 📖 Descripción
 
-## 🧪 Ejemplo de ejecución
+La aplicación cuenta con dos componentes principales:
+
+- `CalculadoraDistancias` (paquete `dominio`):  
+  Contiene la lógica para calcular la distancia de edición mínima entre dos cadenas.
+
+- `Principal` (paquete `aplicacion`):  
+  Clase principal que gestiona la interacción con el usuario mediante consola.
+
+La distancia de edición mínima, en este caso, considera únicamente **inserciones** y **borrados**, sin sustituciones.
+
+---
+
+## 🏗️ Estructura de las Clases
+
+La organización de las clases es sencilla y modular:
+
+| Clase                  | Paquete       | Descripción |
+|:-----------------------|:--------------|:------------|
+| `CalculadoraDistancias` | `dominio`     | Implementa el algoritmo de distancia de edición utilizando **programación dinámica**. Contiene métodos estáticos para el cálculo. |
+| `Principal`             | `aplicacion`  | Clase que gestiona el flujo de la aplicación mediante un menú de opciones en la consola. |
+
+**Relaciones principales:**
+
+- `Principal` hace uso de los métodos estáticos de `CalculadoraDistancias`.
+- No existen dependencias complejas ni herencia entre las clases.
+
+**Javadoc:**
+- La descripción de cada método se puede analizar en los archivos de la carpeta `html`.
+
+---
+
+## 🏃 Ejecución
 
 ### 📋 Menú principal
 
@@ -52,11 +79,22 @@ Introduce el número de la instrucción a ejecutar: 3️⃣
 La distancia de edición mínima entre **casa** y **caza** es **1**
 ```
 
+---
 
-## Diagrama de clases
-A continuación se muestra un diagrama de clases de la estructura del proyecto:
+## 📈 Diagrama UML
 
+A continuación se muestra el diagrama UML básico que representa la estructura del proyecto:
+
+```bash
+_Aquí va el diagrama de clases en formato imagen_  
 <img src="https://github.com/Matthew-PV/Repositorio-Progra-II/blob/8051b296f8a1d370794b98cecf708108a46b1a75/Pr%C3%A1cticas/Pr%C3%A1ctica%204/Diagrama%20UML.png" alt="Diagrama UML">
+```
 
-## Licencia
-Este proyecto está licenciado bajo la <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a>.
+---
+
+## 📜 Licencia
+
+Este proyecto está protegido bajo la licencia **Apache 2.0**.  
+Consulta el archivo [`LICENSE`](LICENSE) para más detalles.
+
+---
