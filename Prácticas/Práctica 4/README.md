@@ -3,12 +3,12 @@
 Este proyecto implementa una calculadora de distancia de edición mínima entre dos cadenas de texto, utilizando un enfoque basado en programación dinámica para optimizar el cálculo.
 
 ## Estructura del Proyecto
-
 - **dominio/CalculadoraDistancias.java**: Contiene la lógica de cálculo de la distancia de edición mínima entre dos cadenas. Se emplea una versión recursiva optimizada mediante memoización (cacheo de resultados).
 - **aplicacion/Principal.java**: Programa principal que permite al usuario interactuar a través de la consola para:
   - Introducir/modificar dos cadenas de texto.
   - Calcular la distancia de edición mínima entre ellas.
-  - Finalizar la ejecución escribiendo `stop` o `parar`
+  - Finalizar la ejecución escribiendo 'stop' o 'parar'
+- **Javadoc**: La estructura de las clases también está definida en la carpeta 'html'
 
 ##Uso
 Una vez ejecutado, el programa permitirá:
