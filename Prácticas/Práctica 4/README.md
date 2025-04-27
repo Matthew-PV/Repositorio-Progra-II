@@ -87,7 +87,7 @@ A continuación se muestra el diagrama UML básico que representa la estructura 
 
 ```bash
 _Aquí va el diagrama de clases en formato imagen_  
-`![Diagrama UML](https://github.com/Matthew-PV/Repositorio-Progra-II/blob/ea156f4b8e5c60845e44d6502158de94e83f905b/Pr%C3%A1cticas/Pr%C3%A1ctica%204/Diagrama%20UML.png)`
+![Diagrama UML](https://github.com/Matthew-PV/Repositorio-Progra-II/blob/ea156f4b8e5c60845e44d6502158de94e83f905b/Pr%C3%A1cticas/Pr%C3%A1ctica%204/Diagrama%20UML.png)
 ```
 
 ---
